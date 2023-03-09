@@ -54,6 +54,4 @@ jobs:
       run: |
         source $VIRTUALENV/bin/activate
         zappa invoke dev traer.lambda1
-    - name: Pruebas Pytest
-      run: |
         pytest test_traer.py
