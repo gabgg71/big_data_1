@@ -20,6 +20,7 @@ def estructure(dic):
   return todos
   
   
+  
 def lambda1(event, context):
     nuevo = event['Records'][0]['s3']['object']['key']
     s3 = boto3.resource('s3')
